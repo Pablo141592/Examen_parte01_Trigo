@@ -29,7 +29,7 @@ void dividir_en_digitos(int numero, int cifras) {
  
   //Se eleva el divisor de forma que tenga el mismo número de cifras que nuestro número inicial
   divisor = pow(divisor, (cifras_aux));
-  /*cout << "divisor: " << divisor << endl;*/
+ 
   
  while (cifras_aux >= 0){
    //El cociente son Digitos de izquiera a derecha
